@@ -11,17 +11,17 @@ level_1_1_enemies:
 	db $28, $04, CHIBIBO
 	db $29, $04, CHIBIBO
 	db $2A, $06, NOKOBON | $80
-	db $2D, $8B, FLY | $80
+	db $2D, $8B, NOKOBON | $80
 	db $32, $0F, NOKOBON | $80
 	db $3B, $0F, NOKOBON
 	db $3C, $0F, NOKOBON | $80
 	db $3D, $0F, NOKOBON | $80
-	db $40, $03, FLY | $80
-	db $42, $0F, FLY | $80
+	db $40, $03, CHIBIBO | $80
+	db $42, $0F, NOKOBON | $80
 	db $46, $8D, NOKOBON | $80
 	db $4F, $0F, CHIBIBO
-	db $52, $04, FLY | $80
-	db $52, $8F, FLY
+	db $52, $04, CHIBIBO | $80
+	db $52, $8F, NOKOBON
 	db $53, $8D, NOKOBON | $80
 	db $55, $0F, CHIBIBO
 	db $57, $0C, NOKOBON | $80
@@ -32,12 +32,12 @@ level_1_1_enemies:
 	db $64, $0F, CHIBIBO
 	db $69, $0F, CHIBIBO
 	db $6D, $0F, NOKOBON | $80
-	db $75, $0F, FLY
+	db $75, $0F, NOKOBON
 	db $78, $0F, NOKOBON | $80
-	db $7A, $0F, FLY
+	db $7A, $0F, NOKOBON
 	db $80, $0C, NOKOBON | $80
 	db $81, $08, GAO | $80
-	db $89, $03, FLY | $80
+	db $89, $03, NOKOBON | $80
 	db $8E, $87, HORIZONTAL_PLATFORM
 	db $92, $84, VERTICAL_PLATFORM
 	db $FF ; end of list
@@ -706,4 +706,3 @@ level_4_3_enemies:
 	db $EC, $8A, BIOKINTON
 	db $FF ; end of list
 	db $FF ; end of list (again, sigh)
-
